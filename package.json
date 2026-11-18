@@ -1,0 +1,33 @@
+{
+  "name": "dead-click",
+  "version": "0.1.0",
+  "description": "Find interactive elements a real user cannot click because another element sits on top of them, at several viewport sizes.",
+  "type": "module",
+  "bin": {
+    "dead-click": "bin/dead-click.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "overlay",
+    "pointer-events",
+    "hit-testing"
+  ],
+  "license": "MIT",
+  "repository": "github:Staberman/dead-click",
+  "dependencies": {
+    "playwright": "~1.64.1"
+  }
+}
